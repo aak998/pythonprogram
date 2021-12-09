@@ -1,0 +1,26 @@
+
+total=0
+list=[1,2,3,4,5]
+for ele in range(0,len(list)):
+    total=total+list[ele]
+print("sum is:",total)
+#//////////////////////////////
+total=1
+list=[1,2,3,4,5]
+for ele in range(0,len(list)):
+    total=total*list[ele]
+print("mul is:",total)
+#/////////////////////////////
+list=[34,67,78,89,90,3]
+smallest=min(list)
+print(f'smallest no is :{smallest}')
+#/////////////////////////////
+list=[34,67,78,89,90,3]
+largest=max(list)
+print(f'largest no is :{largest}')
+#/////////////////////////////
+a =[34,67,78,89,90,3]
+for no in a:
+    if no % 2 == 0:
+        print(no)
+#//////////////////////////
