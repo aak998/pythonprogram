@@ -1,0 +1,4 @@
+a =[34,67,78,89,90,3]
+for no in a:
+    if no % 2 == 0:
+        print(no)
