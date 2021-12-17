@@ -1,0 +1,11 @@
+a=[1,4,[3,5,2],33,43,[],83,89,[],64,[81,92,53],93,78]
+
+print("\nGiven List : ",a)
+
+for i in a:
+    if type(i)==list:
+        if len(i)==0:
+            a.remove(i)
+
+
+print("\nAfter : ",a)
