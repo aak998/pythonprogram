@@ -1,0 +1,7 @@
+k=[]
+n=int(input("enter the no of elements:"))
+for i in range(1,n+1):
+    b=int(input("enter element:"))
+    k.append(b)
+k.sort()
+print("second largest element is",k[n-2])
