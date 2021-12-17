@@ -1,1 +1,5 @@
-
+total=1
+list=[1,2,3,4,5]
+for ele in range(0,len(list)):
+    total=total*list[ele]
+print("mul is:",total)
