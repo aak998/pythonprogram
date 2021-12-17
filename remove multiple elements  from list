@@ -1,0 +1,11 @@
+k=[12,65,34,23,99,56,23,98,45,22]
+
+print("\nGiven List : ",k)
+
+print("\nEnter Range Of Index TO Remove Elemnts ")
+x=int(input("\nStrat : "))
+y=int(input("\nEnd : "))
+
+del k[x:y]
+
+print("\nAfeter Removing Elemnts : ",k)
