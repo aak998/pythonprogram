@@ -1,0 +1,5 @@
+no=int(input("enter range between -100 to :"))
+print("\n negative no.:")
+for i in range (-100,no+1):
+    if i<0:
+        print(i,end=" ")
