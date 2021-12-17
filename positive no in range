@@ -1,0 +1,5 @@
+no=int(input("enter range between 0 to :"))
+print("\n positive no.:")
+for i in range (0,no+1):
+    if i>0:
+        print(i,end=" ")
