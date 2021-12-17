@@ -1,3 +1,14 @@
 list=[34,67,78,89,90,3]
-smallest=min(list)
-print(f'smallest no is :{smallest}')
+min=list[0]
+print("\n Given List : \n ",list)
+for i in list:
+	if min > i:
+		min=i
+
+print("\n Smallest No. Is : ",min)
+
+
+
+#list=[34,67,78,89,90,3]
+#smallest=min(list)
+#print(f'smallest no is :{smallest}')
