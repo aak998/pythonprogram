@@ -1,0 +1,8 @@
+list=[34,67,78,89,90,3]
+max=list[0]
+print("\n Given List : \n ",list)
+for i in list:
+	if max < i:
+		max=i
+
+print("\n Smallest No. Is : ",max)
