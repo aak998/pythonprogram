@@ -5,4 +5,4 @@ for i in list:
 	if max < i:
 		max=i
 
-print("\n Smallest No. Is : ",max)
+print("\n biggest No. Is : ",max)
